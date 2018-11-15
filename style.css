@@ -13,7 +13,7 @@ body {
 }
 .info-container {
   grid-area: 2 / 2 / 3 / 3;
-  width: 400px;
+  width: 600px;
   color: #000;
   border-radius: 5px;
   padding: 20px;
@@ -61,6 +61,7 @@ p {
   text-align: center;
   text-decoration:none;
   color: #fff;
+  border-radius: 5px;
 }
 .flexcontainer {
   display: flex;
@@ -79,4 +80,9 @@ a {
 }
 h1 {
   color: #ff0000;
+  text-align: center;
+}
+h4 {
+  text-align: center;
+  color: #666;
 }
