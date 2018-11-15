@@ -51,6 +51,7 @@ title {
 p {
   grid-area: 2 / 2;
   text-align: left;
+  color: #666;
 }
 .button {
   width: 250px;
