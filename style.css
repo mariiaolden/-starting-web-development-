@@ -3,7 +3,7 @@ body {
   font: 16px Helvetica, Sans-Serif;
   line-height: 24px;
   font-family: 'Montserrat', sans-serif;
-  background-color: #ccc;
+  background-color: #ddd;
 }
 .wrapper {
   display: grid;
@@ -20,11 +20,14 @@ body {
   margin: auto;
   font-size: 100%;
   border-color: #666;
+
 }
 .box1 {
   background-color: #fff;
   margin: 30px;
   padding: 10px;
+  box-shadow: 0 0 2px 2px #aaa;
+  border-radius: 5px;
 }
 title {
   grid-area: 2 / 2;
