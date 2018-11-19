@@ -5,12 +5,7 @@ body {
   font-family: 'Montserrat', sans-serif;
   background-color: #ddd;
 }
-.wrapper {
-  display: grid;
-  grid-template-columns: repeat (3, 1fr);
-  grid-template-rows: repeat (3, 100px);
-  color: #000;
-}
+
 .info-container {
   grid-area: 2 / 2 / 3 / 3;
   width: 600px;
