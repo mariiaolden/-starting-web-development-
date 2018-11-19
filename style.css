@@ -35,12 +35,17 @@ title {
   color: #FF0000;
 }
 .img {
-  grid-area: 2 / 3;
   width: 100%;
   height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
+
+}
+.columnfit {
+  width: 70%;
+  height: auto;
+  margin: 20px;
 
 }
 
@@ -53,6 +58,11 @@ p {
   text-align: left;
   color: #666;
 }
+
+.movies p {
+  margin-left: 10px;
+}
+
 .button {
   width: 250px;
   background-color: #ff0000;
@@ -73,7 +83,9 @@ a {
   color: #ccc;
 }
 .links {
+  width: 80%;
   height: 100px;
+  padding-left: 10%;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -85,4 +97,29 @@ h1 {
 h4 {
   text-align: center;
   color: #666;
+}
+.movies {
+  display: grid;
+  grid-template: 100px 250px 250px 250px / 150px 1fr;
+}
+.moviesheader {
+  grid-area: 1 / 1 / 2 / 3;
+}
+.moviesimg1 {
+  grid-area: 2 / 1 / 3 / 2;
+}
+.desc1 {
+  grid-area: 2 / 2 / 3 / 3;
+}
+.moviesimg2 {
+  grid-area: 3 / 1 / span 1 / span 1;
+}
+.desc2 {
+  grid-area: 3 / 2 /span 1 / span 1;
+}
+.moviesimg3 {
+  grid-area: 4 / 1 / span 1 / span 1;
+}
+.desc3 {
+  grid-area: 4 / 2 / span 1 / span 1;
 }
